@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <title>موقعي</title>
+    <meta charset="UTF-8">
+    <title>موقعي الشخصي</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f0f4fd 0%, #e0eafc 100%);
+            font-family: 'Cairo', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #222;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.09);
+            padding: 32px 24px;
+            text-align: center;
+        }
+        h1 {
+            color: #2a73d6;
+            margin-bottom: 12px;
+            font-size: 2.2em;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 18px;
+        }
+        .footer {
+            font-size: 0.95em;
+            color: #888;
+            margin-top: 36px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                margin: 16px;
+                padding: 16px 8px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
 </head>
 <body>
-  <h1>مرحبًا بك في موقعي!</h1>
-  <p>تم إنشاء هذا الموقع باستخدام GitHub Pages من الهاتف.</p>
+    <div class="container">
+        <h1>مرحبًا بك في موقعي!</h1>
+        <p>
+            تم إنشاء هذا الموقع باستخدام <b>GitHub Pages</b>.<br>
+            هذا مثال على تصميم حديث وسهل التصفح.
+        </p>
+        <img src="https://avatars.githubusercontent.com/u/3369400?v=4" alt="صورة رمزية" style="width:100px; border-radius:50%; margin-bottom:18px;">
+        <div class="footer">
+            &copy; 2025 - صُنع بواسطة <a href="https://github.com/mimoukm" style="color:#2a73d6;text-decoration:none;">mimoukm</a>
+        </div>
+    </div>
 </body>
 </html>
